@@ -1,0 +1,5 @@
+如何把有着某个特定名称的所有元素的值都放到一个数组中：
+var arrInputValues = new Array(); 
+$("input[name='xxx']").each(function(){ 
+　　arrInputValues.push($(this).val());
+}); 
